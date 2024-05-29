@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6vh;   
+    gap: 8px;
+ 
+}
+.top .name{
+    color: #528BE9;
+    font-family: 700;
+    font-size: 1.4vw;
+}
+.top .email{
+    font-weight: 500;
+    font-size: 1vw;
+    font-size: 1.2vw;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18vw;
+    align-items: center;
+}
+.links a{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: black;
+}
+.links p{
+opacity:0.8;
+font-weight: 500;
+}
+.mainElement{
+    width: 100%;
+    height: 100%;
+    padding: 0 10vw;
+    line-height: 4vh;
+}
+.skills{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.skills h3{
+    color: #528BE9;
+    font-size: 1.1vw;
+}
+.skills li{
+    font-size: 1.1vw;
+    font-weight: 600;
+    list-style: none;
+    padding-left: 2vw;
+    line-height: 3vh;
+}
+.education{
+    width: 100%;
+    height: auto;
+    line-height: 3vh;
+    margin-top: 3vh;
+    align-items: center;
+}
+.education h3{
+    color: #528BE9;
+    font-size: 1.1vw;
+}
+.education .graduation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.graduation li{
+    list-style: none;
+    font-size: 1.2vw;
+}
+.twelth{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 2vw;
+    align-items: center;
+}
+.twelth li{
+    font-size: 1.2vw;   
+}
+.tenth{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+    list-style: none;
+    line-height: 3vh;
+}
+.tenth li{
+    font-size: 1.2vw;
+}
+.academicProject{
+    width: 100%;
+    height: auto;
+    margin-top: 3vh;
+}
+.academicProject h3{
+    color: #528BE9;
+    font-size: 1.1vw;
+}
+.academicProject .project1{
+    list-style: none;
+    font-size: 1.1vw;
+    padding: 0 2vw;
+}
+.project1 .Remedies{
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.project1 .desc1{
+    line-height: 18px;
+}
+.academicProject .project2{
+    list-style: none;
+    font-size: 1.1vw;
+    padding: 0 2vw;
+    margin-top: 10px;
+}
+.project2 .app{
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.project2 .desc2{
+    line-height: 18px;
+}
+
+
+
